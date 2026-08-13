@@ -2,8 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
-
 def glacial_melt_simulation(
     years=50,
     simulations=100_000,
@@ -63,5 +61,7 @@ def glacial_melt_simulation(
 
     return masses
 
-# Execute the code
+
+
+
 final_mass_data = glacial_melt_simulation()
