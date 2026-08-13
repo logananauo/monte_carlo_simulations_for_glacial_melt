@@ -18,7 +18,7 @@ At the end, the simulations estimate quantities such as:
 ------------------------------------------
 ## Environmental factors that can make the simulation more accurate:
 
-### Replace the simple temperture*40 melt equation with a positive degree-day model
+### Replace the simple temperature*40 melt equation with a positive degree-day model
 - Assumes an empirical relationship between rate of glacial melt and air temperature
 - There is an abundance of air temperature data publicly available
 - General Model: $M = K_{I}PDD + K_{S}PDD$
