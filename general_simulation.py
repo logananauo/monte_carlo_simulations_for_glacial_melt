@@ -2,6 +2,7 @@
 import random
 import numpy as np
 
+
 ### parameters ###
 
 ### years into the future
@@ -20,8 +21,6 @@ temp_std = 1.5
 ### snowfall accumulation; cm/year
 mean_snow = 120
 snow_std = 20
-
-final_masses = []
 
 
 ### monte carlo simulation logic ###
@@ -53,7 +52,7 @@ for i in range(simulations):
             break
     
     final_masses.append(mass)
-    
+
 
 ### results ###
 average_mass = np.mean(final_masses)
